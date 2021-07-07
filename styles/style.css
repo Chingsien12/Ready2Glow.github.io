@@ -1,0 +1,138 @@
+
+/* filename: style.css    
+author: Chingsien Ly 
+created: 31/07/2020
+last modified: 7/8/2020 
+description: [job.html,apply.html,index.html,about.html,enhancement.html]
+*/
+
+.shadow{
+line-height: 50%;
+text-shadow: 2px 2px lightblue;
+}
+/*make the text bold*/
+#bold
+{
+	 font-weight:bold;
+	 
+}
+.check
+{
+	
+}
+
+#header
+{
+	/*?*/
+	
+	letter-spacing: 4px;
+	font-size: 29px;
+	
+}
+a:hover
+{
+	background-color:brown; 
+}
+nav  
+{
+float: left;
+background-color: lightblue; 
+width: 100%;
+margin-bottom: 10px;
+}
+
+nav ul
+{
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	list-style: none;
+	float: left;
+	font-size: 93%;
+}
+nav ul li a
+{
+display: block;/*The display property specifies the display behavior (the type of rendering box) of an element.*/
+font-weight: bold;
+padding: .625em 3.5em;
+text-decoration: none;
+color: #000;
+border-right: 1px solid #bababa;
+}
+
+/*animation*/
+@keyframes example {
+  from {background-color: lightblue;}
+  to {background-color: gold }
+  
+
+}
+
+/* The element to apply the animation to */
+#header{
+	text-align: center;
+  width: 1000px;
+  height: 150px;
+  background-color: lightblue;
+  animation-name: example;
+  animation-duration: 4s;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: block;
+  padding: 7px ;
+ 
+}
+
+#Imagesec
+{
+	margin: 1em;
+}
+/*style for footer*/
+footer {
+clear:both;
+border-style:dotted;
+margin-top: 20px;
+width: 100%;
+background-color: lightblue;
+}
+
+/*animation2*/
+#dive 
+{
+text-decoration: none;
+	width: 85px;
+	height: 20px;
+	background-color: lightblue;
+	position: relative;
+	animation-name: example;
+	animation-duration: 10s;
+	animation-fill-mode: alternate-reverse;
+	font-weight:bold;
+	
+}
+@keyframes example
+{
+	0%{ background-color:rgba(255,0,0,0.3) ; left: 0px; top: 0px;}
+	25%{background-color: rgba(0,255,0,0.3); left: 400px; top: 0px;}
+	50%{background-color: rgba(255,0,255,0.3); left: 0px; top: 0px;}
+	
+}
+
+
+aside
+{
+	float: right;
+
+	background-color: lightblue;
+
+}
+
+/*style of clock*/
+#time
+{
+	border-style:dotted;
+	background-color: lightblue;
+	width: 100%;
+}
